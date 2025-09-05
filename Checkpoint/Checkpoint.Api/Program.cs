@@ -3,11 +3,11 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Adiciona o DbContext usando a string de conexão do appsettings.json
+// adicionando o DbContext usando a string de conexão do appsettings.json
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseOracle(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Serviços para API (não vamos usar controllers, mas é uma boa prática manter)
+// serviços de API
 builder.Services.AddControllers();
 
 var app = builder.Build();

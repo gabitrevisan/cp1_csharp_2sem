@@ -8,8 +8,7 @@ namespace Checkpoint.Data
         public ApplicationDbContext CreateDbContext(string[] args)
         {
             var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
-            // String de conexão usada APENAS para criar as migrations.
-            optionsBuilder.UseOracle("User Id=system;Password=99500;Data Source=localhost:1521/FREEPDB1;");
+            optionsBuilder.UseOracle("User Id=RM99500;Password=100504;Data Source=oracle.fiap.com.br:1521/ORCL;");
 
             return new ApplicationDbContext(optionsBuilder.Options);
         }
