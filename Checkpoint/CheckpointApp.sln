@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkpoint.Api", "Checkpoint.Api\Checkpoint.Api.csproj", "{850ED666-2D3A-45F4-A92D-114E799AF1A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkpoint.Api", "Checkpoint.Api\Checkpoint.Api.csproj", "{D33348C8-5274-4B31-892C-C76E9A63D9B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkpoint.Model", "Checkpoint.Model\Checkpoint.Model.csproj", "{CC8613E6-7BDF-4333-A81C-3ED9F29463F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkpoint.Model", "Checkpoint.Model\Checkpoint.Model.csproj", "{CF3C5F95-C66B-4214-9EC5-79775A687608}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkpoint.Data", "Checkpoint.Data\Checkpoint.Data.csproj", "{A4523A1D-1F01-4CCE-9CAE-90098EE918D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkpoint.Data", "Checkpoint.Data\Checkpoint.Data.csproj", "{00C9530D-3B17-4883-8EEE-1C202D58C2EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,17 +18,17 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{850ED666-2D3A-45F4-A92D-114E799AF1A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{850ED666-2D3A-45F4-A92D-114E799AF1A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{850ED666-2D3A-45F4-A92D-114E799AF1A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{850ED666-2D3A-45F4-A92D-114E799AF1A8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CC8613E6-7BDF-4333-A81C-3ED9F29463F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CC8613E6-7BDF-4333-A81C-3ED9F29463F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CC8613E6-7BDF-4333-A81C-3ED9F29463F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CC8613E6-7BDF-4333-A81C-3ED9F29463F5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A4523A1D-1F01-4CCE-9CAE-90098EE918D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A4523A1D-1F01-4CCE-9CAE-90098EE918D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A4523A1D-1F01-4CCE-9CAE-90098EE918D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A4523A1D-1F01-4CCE-9CAE-90098EE918D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D33348C8-5274-4B31-892C-C76E9A63D9B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D33348C8-5274-4B31-892C-C76E9A63D9B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D33348C8-5274-4B31-892C-C76E9A63D9B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D33348C8-5274-4B31-892C-C76E9A63D9B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF3C5F95-C66B-4214-9EC5-79775A687608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF3C5F95-C66B-4214-9EC5-79775A687608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF3C5F95-C66B-4214-9EC5-79775A687608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF3C5F95-C66B-4214-9EC5-79775A687608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00C9530D-3B17-4883-8EEE-1C202D58C2EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00C9530D-3B17-4883-8EEE-1C202D58C2EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00C9530D-3B17-4883-8EEE-1C202D58C2EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00C9530D-3B17-4883-8EEE-1C202D58C2EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
