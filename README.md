@@ -1,7 +1,9 @@
 # 📚 Checkpoint 01 de C# Software Development (2.2025)
 
 *Turma:* 3ESPW
+
 *Aluna:* Gabriela Trevisan da Silva
+
 *RM:* 99500
 
 ## 🎯 Objetivo
